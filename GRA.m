@@ -13,7 +13,7 @@ option = 2;
 figure;
 subplot(2,1,1); % Crear dos subgráficas
 plot(t1, z1(:,1), 'r', 'LineWidth', 1.5); hold on;
-plot(t1, z1(:,2), 'y', 'LineWidth', 1.5);
+plot(t1, z1(:,2), 'c', 'LineWidth', 1.5);
 xlabel('Tiempo (s)');
 ylabel('Desplazamiento (m)');
 legend('Carroceria (x1))', 'Rueda (x2)');
@@ -22,8 +22,8 @@ grid on;
 
 % ----------------------- GRAFICAR OPCIÓN 2 -----------------------
 subplot(2,1,2);
-plot(t2, z2(:,1), 'r', 'LineWidth', 1.5); hold on;
-plot(t2, z2(:,2), 'y', 'LineWidth', 1.5);
+plot(t2, z2(:,1), 'r', 'LineWidth', 3); hold on;
+plot(t2, z2(:,2), 'c', 'LineWidth', 1.5);
 xlabel('Tiempo (s)');
 ylabel('Desplazamiento (m)');
 legend('Carroceria (x1))', 'Rueda (x2)');
